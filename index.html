@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div class="nav-bar">
+                <div class="left-nav">
+                    <a href="./index.html"><img src="prashant_logo_black.png" alt="Prashant Logo" id="pras_logo"></a>
+                </div>
+                <nav id="nohide">
+                    <a href="./index.html">Home</a>
+                    <a href="#academic_page">Acadamic Profile</a>
+                    <a href="#future_page">Future Goals</a>
+                    <a href="#h_p">Projects</a>
+                    <!-- <a href="#">About</a> -->
+                    <a href="./contact.html">Contact</a>
+                </nav>
+                <div class="sidebar">
+                    <i onclick="HideSidebar()" class="fa-solid fa-xmark" style="color: white"></i>
+                    <a href="#">Home</a>
+                    <a href="#academic_page">Acadamic Profile</a>
+                    <a href="#future_page">Future Goals</a>
+                    <a href="#h_p">Projects</a>
+                    <!-- <a href="#">About</a> -->
+                    <a href="./contact.html">Contact</a>
+                    <div class="right-nav-sidebar">
+                        <a href="https://www.linkedin.com/in/prashant-dhimal-a9922821a/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="https://www.facebook.com/dhimalprashant25/" target="_blank"><i class="fa-brands fa-facebook" ></i></a>
+                        <a href="https://github.com/Prashant2525" target="_blank"><i class="fa-brands fa-github" ></i></a>
+                        <a href="https://www.instagram.com/iamprashantdhimal/" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+                    </div>
+                </div>
+                <div class="right-nav">
+                        <a href="https://www.linkedin.com/in/prashant-dhimal-a9922821a/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="https://www.facebook.com/dhimalprashant25/" target="_blank"><i class="fa-brands fa-facebook" ></i></a>
+                        <a href="https://github.com/Prashant2525" target="_blank"><i class="fa-brands fa-github" ></i></a>
+                        <a href="https://www.instagram.com/iamprashantdhimal/" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+                </div>
+                <div class="menu">
+                    <i id="icon" class="fa-solid fa-moon"
+                        style="padding-right: 2rem; font-size: 1.2rem;"></i>
+                    <!-- <i id="icon" class="fa-solid fa-sun" style="padding-right: 2rem; font-size: 1.2rem;"></i> -->
+                    <i onclick="ShowSidebar()" class="fa-solid fa-bars" id="menu_bar" style="color: rgb(0, 0, 0);"></i>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="contents">
+                <div class="left_contents">
+                    <p id="p1">Hello, My name is</p>
+                    <p id="p2"><span class="purple" style="color: rgb(144, 54, 228);">Prashant Dhimal</span><br>and I am passionate<br><span id="element"></span></p>
+                    <!-- <p id="p3">and i am passionate web developer</p> -->
+                    <a href="Prashant-Dhimal-cv_final.pdf" target="_blank"><button>Resume</button></a>
+                </div>
+                <div class="line"></div>
+                <div class="right_contents">
+                    <div class="image carousel-six-images">
+                        <!-- <img src="student_1.jpg" class="one img-responsive">
+                        <img src="student_2.jpg" class="two changing img-responsive">
+                        <img src="student_3.jpg" class="three changing img-responsive">
+                        <img src="student_4.jpg" class="four changing img-responsive"> -->
+                        <img src="profile.jpg" alt="Prashnt">
+                        <div class="circle"></div>
+                        <div class="circle_1"></div>
+                        <div class="circle"></div>
+                        <div class="circle_1"></div>
+                        <div class="circle_2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_contents">
+                <div id="academic_page" class="academic">
+                    <p>Academic Profile</p>
+                    <div class="aca_pro">
+                        <div class="timeline">
+                            <div class="container left_container">
+                                <img src="baljagriti.jpg" alt="baljagriti">
+                                <div class="text_box">
+                                    <h2>Schooling</h2>
+                                    <small id="s_1">Pass out: 2020</small>
+                                    <h4>Baljagriti English Secondary Boarding School</h4>
+                                    <small id="s_2">GPA: 3.65 / 4.0</small>
+                                    <span class="left_container_arrow"></span>
+                                </div>
+                            </div>
+                            <div class="container right_container">
+                                <img src="kmc.jpg" alt="KMC">
+                                <div class="text_box">
+                                    <h2>College</h2>
+                                    <small id="s_1">2020 - 2022</small>
+                                    <h4>Kathmandu Model College</h4>
+                                    <small id="s_2">GPA: 3.59 / 4.0</small>
+                                    <span class="right_container_arrow"></span>
+                                </div>
+                            </div>
+                            <div class="container left_container">
+                                <img src="srmap.jpg" alt="SRM AP">
+                                <div class="text_box">
+                                    <h2>High School</h2>
+                                    <small id="s_1">2022 - 2026</small>
+                                    <h4>SRM University AP</h4>
+                                    <small id="s_2">GPA: 9.75 / 10</small>
+                                    <span class="left_container_arrow"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="heading">
+                    <div class="my_pro">
+                        <p id="h_p">My Projects</p>
+                    </div>
+                    <div class="content3">
+                        <div class="cards">
+                            <div class="card events1">
+                                <h2 class="card-title-large">Library Management System</h2>
+                                <h3 class="card-title-small">April 2024</h3>
+                                <p class="card-description">Library management system using front-end technologies (
+                                    HTML, CSS, JavaScript ) and Back-end technologies ( PHP, SQL )</p>
+                                <a href="" class="card-cta">&rarr;</a>
+                            </div>
+
+                            <div class="card events2">
+                                <h2 class="card-title-large">Blogging Website</h2>
+                                <h3 class="card-title-small">April 2024</h3>
+                                <p class="card-description">It's a blogging website which is created using front-end
+                                    technologies ( HTML, CSS, JavaScript and JSON) and Back-end technologies ( PHP, SQL
+                                    )</p>
+                                <a href="" class="card-cta">&rarr;</a>
+                            </div>
+
+                            <div class="card events3">
+                                <h2 class="card-title-large">Sentiment Analysis of E-commerce Product</h2>
+                                <h3 class="card-title-small">May 2024</h3>
+                                <p class="card-description">It analysis the sentiment (positive, negative, neutral) of
+                                    any e-commerce product which is made using Python and Machine learning technologies.
+                                </p>
+                                <a href="" class="card-cta">&rarr;</a>
+                            </div>
+
+                            <div class="card events4">
+                                <h2 class="card-title-large">Clothing Website</h2>
+                                <h3 class="card-title-small">Till Date</h3>
+                                <p class="card-description">The fashion store website (Only front-end)</p>
+                                <a href="" class="card-cta">&rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="future" id="future_page">
+                    <div class="my_pro_2">
+                        <p id="h_p_2">Future Goals</p>
+                    </div>
+                    <div class="content4">
+                        <div class="main_head">
+                            <div id="stg">
+                                <h3 id="stg_h3">Short-Term Goals</h3>
+                            </div>
+                            <div id="hide_1" class="hidden-content" >
+                                <p>Complete my degree in Computer Science</p>
+                                <p>Secure an internship at a leading tech company</p>
+                            </div>
+                            <div id="ltg">
+                                <h3 id="ltg_h3">Long-Term Goals</h3>
+                            </div>
+                            <div id="hide_2" class="hidden-content" >
+                                <p>Become a full-stack developer</p>
+                                <p>Start my own tech company</p>
+                            </div>
+                            <div id="lo">
+                                <h3 id="lo_h3">Learning Objectives</h3>
+                            </div>
+                            <div id="hide_3" class="hidden-content" >
+                                <p>Master React.js and Node.js</p>
+                                <p>Learn Artificial Intelligence and Machine learning</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="main_hide">
+                            <div class="hide_1 hidden-content" >
+                                <p>Complete my degree in Computer Science</p>
+                                <p>Secure an internship at a leading tech company</p>
+                            </div>
+
+                            <div class="hide_2 hidden-content" >
+                                <p>Become a full-stack developer</p>
+                                <p>Start my own tech company</p>
+                            </div>
+
+                            <div class="hide_3 hidden-content" >
+                                <p>Master React.js and Node.js</p>
+                                <p>Learn cloud computing and DevOps practices</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <a href="#" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        <hr>
+        <footer>
+            Copyright<i class="fa-regular fa-copyright">&emsp;2024 - 2025 All rights reserved</i>
+        </footer>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
